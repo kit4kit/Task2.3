@@ -13,3 +13,6 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter:5.6.1'
     testImplementation 'io.rest-assured:rest-assured:4.3.0'
 }
+test {
+    useJUnitPlatform()
+}
